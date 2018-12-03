@@ -1,0 +1,84 @@
+<!DOCTYPE html> <!--Ne DOCTYPE eshte shume e rendesishme-->
+<html>
+<head>
+    <title>     </title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/lightbox.css">
+    
+    <!-- Versions of JQuery(take here): https://code.jquery.com/jquery/-->
+    <script src="js/jquery.js"></script>
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.js"></script>
+
+    <script src="js/lightbox.js"></script>
+    
+    <style>
+
+        .thumbnail img {
+            width: 350px;
+            height: 200px;
+        }
+        
+    </style>
+</head>
+
+
+<body data-spy="scroll" data-targe=".navbar">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand">Photo Gallery</div>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nature.html">Nature Gallery</a></li>
+                <li><a href="">Science Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+ <!--MODAL <==> LIGHTBOX plugin-->
+    
+    <div class="container-fluid">
+        <div class="page-header">
+            <h3>Photo Gallery</h3>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <a href="images/img1.jpg" data-lightbox="gallery" data-title="This is the first Image" data-toggle="modal" class="thumbnail">
+                    <img src="images/img1.jpg">       
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="images/img2.jpg" data-lightbox="gallery" data-title="This is the second Image"  class="thumbnail">
+                    <img src="images/img2.jpg">      
+                </a> 
+            </div>
+            <div class="col-md-4">
+                <a href="images/img3.jpg" data-lightbox="gallery" data-title="This is the thirsd Image"  class="thumbnail">
+                    <img src="images/img3.jpg">      
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="images/img4.jpg" data-lightbox="gallery" data-title="This is the fourth Image"  class="thumbnail">
+                    <img src="images/img4.jpg">      
+                </a>
+            </div>
+        </div>
+        
+        
+        <footer class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container">
+                <p class="text-center" style="padding:10px">Copyright Reserverd By Rigers Leka</p>
+            </div>
+        </footer>
+        
+    </div>
+    
+    
+</body>
+</html>
